@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = ' https://comhardtodo.onrender.com/api/auth';
 
 // Signup API Call
 export const signupUser = async (userData) => {

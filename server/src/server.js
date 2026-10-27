@@ -14,7 +14,7 @@ connectDB();
 // Middlewares
 app.use(cors({
   origin: [
-    'https://comhardtodo.netlify.app/',
+    'https://comhardtodo.netlify.app',
     'http://localhost:5173'           
   ],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
